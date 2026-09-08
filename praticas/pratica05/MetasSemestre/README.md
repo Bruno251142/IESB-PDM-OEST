@@ -1,3 +1,4 @@
+
 # MetasSemestre
 
 App feito em React Native (Expo) pra atividade sobre useState, props,
@@ -75,5 +76,9 @@ que já existiam.
 
 ## Prints
 
+<img width="720" height="1600" alt="e5cd66d3-b0ff-4d34-858d-88c99f3e615b" src="https://github.com/user-attachments/assets/fecc5dce-b778-496f-a258-37b403927267" />
+<img width="720" height="1600" alt="c6fd84af-b4ea-45f1-86e9-1fa5b1b6c8cc" src="https://github.com/user-attachments/assets/1b34d86c-07fc-40fb-b59e-4e8f3a6eb6c9" />
+<img width="720" height="1600" alt="ae80033b-60a3-42ca-9217-70457be4abae" src="https://github.com/user-attachments/assets/09941e9a-078a-42dd-a625-6eeedce40dfc" />
+<img width="720" height="1600" alt="3c9be9c6-80b7-4d7c-89f9-9d4991cdf1b4" src="https://github.com/user-attachments/assets/8e0b4133-4fca-4875-9c54-5d89e82bea81" />
 
 
