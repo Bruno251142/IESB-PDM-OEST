@@ -86,7 +86,10 @@ Também usei FlatList com ListEmptyComponent no lugar do map com ScrollView.
 
 ## Prints
 
-(colocar aqui: tela vazia, tela com itens, e a tela depois de fechar e
-reabrir o app mostrando que os dados continuam)
+<img width="720" height="1600" alt="f9276007-bc98-4687-91aa-be1531320763" src="https://github.com/user-attachments/assets/73b59e5c-a295-4049-9cb1-7a3fa002d894" />
+<img width="720" height="1600" alt="fa5e9870-5a1a-4a20-beef-60e8a1700cb0" src="https://github.com/user-attachments/assets/b85d4ae8-7fd5-4639-8727-5e715edce0d8" />
+<img width="720" height="1600" alt="a3b9cf4b-39af-4f0d-b7eb-9164c13a05c3" src="https://github.com/user-attachments/assets/af987a2b-1532-4251-b007-aa458b64a94f" />
+<img width="720" height="1600" alt="2b164478-677e-4144-a3d6-abfb66f34d32" src="https://github.com/user-attachments/assets/c21d248a-2e1e-48e0-9de7-bd3ad65b3b73" />
+
 
 
