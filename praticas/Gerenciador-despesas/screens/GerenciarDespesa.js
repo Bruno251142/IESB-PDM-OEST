@@ -1,4 +1,4 @@
-import { View, Text, TextInput, StyleSheet, Pressable, Button, Alert } from 'react-native';
+import { View, Text, TextInput, StyleSheet, Pressable, Button } from 'react-native';
 import React, { useState } from 'react';
 import DateTimePicker from '@react-native-community/datetimepicker';
 
@@ -9,6 +9,7 @@ function GerenciarDespesa({ navigation }) {
   const [valor, setValor] = useState('');
   const [descricao, setDescricao] = useState('');
   const [categoria, setCategoria] = useState('');
+  const [erro, setErro] = useState('');
 
   const [showPicker, setShowPicker] = useState(false);
   const onChange = (event, selectedDate) => {
@@ -30,9 +31,11 @@ function GerenciarDespesa({ navigation }) {
 
   function enviar() {
     if (descricao.trim() === '' || !(Number(valor) > 0) || categoria === '') {
-      Alert.alert('Atenção', 'Preencha descrição, valor e categoria.');
+      setErro('Preencha descrição, valor e categoria.');
       return;
     }
+
+    setErro('');
 
     const novaDespesa = {
       id: Date.now().toString(),
@@ -43,7 +46,6 @@ function GerenciarDespesa({ navigation }) {
     };
     console.log(novaDespesa);
 
-    Alert.alert('Pronto', 'Despesa cadastrada!');
     navigation.goBack();
   }
 
@@ -99,6 +101,8 @@ function GerenciarDespesa({ navigation }) {
         )}
       </View>
 
+      {erro !== '' && <Text style={styles.erro}>{erro}</Text>}
+
       <Button title="Salvar" onPress={enviar} />
     </View>
   );
@@ -137,6 +141,10 @@ const styles = StyleSheet.create({
   },
   textoAtivo: {
     color: 'white',
+  },
+  erro: {
+    color: 'red',
+    marginBottom: 10,
   },
 });
 
