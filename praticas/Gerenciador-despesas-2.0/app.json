@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Gerenciador de Despesas",
+    "slug": "gerenciador-despesas",
+    "version": "2.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic"
+  }
+}
