@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "CampusGo",
+    "slug": "campus-go",
+    "version": "1.0.0",
+    "scheme": "campusgo",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O CampusGo acessa suas fotos para trocar a foto de perfil.",
+          "cameraPermission": "O CampusGo usa a câmera para tirar a foto de perfil."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O CampusGo usa sua localização para registrar onde você estudou."
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}
